@@ -2,8 +2,8 @@
 <header class="header header--loggedIn">
     <div class="container">
       <a href="{% url 'home' %}" class="header__logo">
-        <img src="{% static 'images/logo.png' %}" />
-        <h1>StudyBuddy</h1>
+        <img src="{% static 'images/logo.png' %}" style="width: auto; max-height: 5rem; object-fit: contain;"/>
+        <h1>ChessBuddy</h1>
       </a>
       <form method="GET" action="{% url 'home' %}" class="header__search">
         <label>
